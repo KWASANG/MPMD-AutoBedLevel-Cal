@@ -6,12 +6,12 @@ SET com_name=COM3
 
 REM Preheat the bed before running the script.
 REM Also enter your bed temperature here to ensure it stays heated
-SET bed_temp=50
+SET bed_temp=55
 
 REM Fill in these M665 R and L values with your results from
 REM the carbon paper calibration or use your favorite values.
-SET M665_R=63.5
-SET M665_L=123.0
+SET M665_R=61.70
+SET M665_L=120.80
 
 REM This is the same as your M92 XYZ value
 REM Firmware Versions <=41: Use 57.14
@@ -19,7 +19,7 @@ REM Firmware Version 43, 44: Use 114.28
 REM Firmware Version 45, it depends.
 REM For help, go here: 
 REM https://www.thingiverse.com/thing:3892011
-SET steps_mm=57.14
+SET steps_mm=114.28
 
 REM If using Marlin, set to 1
 SET firmware_flag=0
